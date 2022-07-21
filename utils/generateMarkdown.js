@@ -93,8 +93,7 @@ function renderLicenseSection (license) {
     if (!license) {
         return "";
     } else {
-        return;
-        `
+        return `
         ##License
 
         ${license} was used to License this project
