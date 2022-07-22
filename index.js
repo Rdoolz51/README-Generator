@@ -1,14 +1,14 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const { writeFile } = require('fs/promises');
 const { prompt } = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = [
     {
         type: 'input',
         name: 'projectName',
-        message: 'What is the name of this project? (Required)',
+        message: 'What is the name of this project?',
         validate: projectName => {
             if (projectName) {
                 return true;
@@ -36,17 +36,17 @@ const questions = [
         name: 'projectLanguages',
         message: 'What technologies did you use to create this project?',
         choices: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "BootStrap",
-            "Materialize",
-            "Tailwind",
-            "Jquery",
-            "Node",
-            "React",
-            "Angular",
-            "MySQL"
+            "HTML ",
+            "CSS ",
+            "JavaScript ",
+            "BootStrap ",
+            "Materialize ",
+            "Tailwind ",
+            "Jquery ",
+            "Node ",
+            "React ",
+            "Angular ",
+            "MySQL "
         ],
         validate: projectLanguages => {
             if (projectLanguages) {
@@ -78,7 +78,7 @@ const questions = [
     {
         type: 'list',
         name: 'projectLicense',
-        message: 'What licence are you using for your project?',
+        message: 'What license are you using for your project?',
         choices: [
             "Apache License 2.0",
             "GNU General Public License v3.0",
@@ -141,16 +141,16 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile (fileName, data) {
     writeFile(fileName, data);
 }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 async function init () {
     const answers = await prompt(questions);
     const projectInfo = await generateMarkdown(answers);
-    await writeToFile('./dist/README.md', projectInfo);
+    await writeToFile('README.md', projectInfo);
 }
 
 // Function call to initialize app

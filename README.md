@@ -1,53 +1,53 @@
+
 # README Generator
-    
+![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
 
-    ## Project Description
+## Project Description
 
-    Generates a README.md file for any project using User-Input
+This program will take user input and generate a README.md file.
 
-    ##Table of Contents
+## Table of Contents
 
-    - [Technology](#technology)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributions](#contributions)
-    - [Tests](#tests)
-    - [Additional Questions](#questions)
-    
-    ## Technology
+- [Technology](#technology)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributions](#contributions)
+- [Tests](#tests)
 
-    HTML,JavaScript,Node
+## Technology
 
-    ## Installation
+HTML ,JavaScript ,Node 
 
-    Dowload the .ZIP from GitHub, once you extract the contents, open the entire directory in your code editor. Navigate to the Terminal and enter: "npm i inquirer@8.2.4" (without the quotation marks). Once that has finished installing, in the same terminal, type in "node index" (again, disregarding the quotation marks).
+## Installation
 
-    ## Usage
+After unzipping the folder, open the folder in VSCode or something similar. In the terminal, type npm i inquirer@8.2.4
 
-    Once the user types in "node index" they will be asked a series of questions, once all questions are filled out, a README.md file with be generated and added to the root directory!
+## Usage
 
-    
-
-    ## Contributions 
-
-    N/A
-
-    ## Tests
-
-    No Tests currently.
-
-    ## Additional Questions
-
-    ### For any issues, please feel free to contact me on either GitHub or using my personal Email!
-    https://github.com/Rdoolz51
-    
-    Rdoolz51@aol.com
+After installation, type node index in the terminal and then follow the prompts to generate a README with your info!
 
 
-    ## Thank you for checking out my work! I hope you enjoy!
+## License
 
-                               _
-                            __(.)< (MEOW)
-                            \___)   
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[The Unlicense](http://unlicense.org/) was used to License this project
+
+
+## Contributions 
+
+N/A
+
+## Tests
+
+No testing required for this project!
+
+## Additional Questions
+
+### For any issues, please feel free to contact me on either GitHub or using my personal Email!
+[GitHub](https://github.com/Rdoolz51)
+
+[Email Me!](mailto:Rdoolz51@aol.com)
+
+
+## Thank you for checking out my work! I hope you enjoy!
+
