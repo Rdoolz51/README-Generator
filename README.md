@@ -48,6 +48,7 @@ No testing required for this project!
 
 [Email Me!](mailto:Rdoolz51@aol.com)
 
+## There is a video walkthrough on [Youtube](https://youtu.be/8HKmT2zeo5s)
 
 ## Thank you for checking out my work! I hope you enjoy!
 
